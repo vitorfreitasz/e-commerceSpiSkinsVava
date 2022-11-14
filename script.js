@@ -1,4 +1,3 @@
-var x = "helloworld"
-console.log{
-    x
-}
+console.log(
+    "helloworld"
+    );
