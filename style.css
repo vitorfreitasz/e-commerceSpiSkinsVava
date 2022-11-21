@@ -39,6 +39,7 @@ body {
 #navbar li{
     list-style: none;
     padding: 0 20px;
+    position: relative;
 }
 
 #navbar li a{
@@ -48,8 +49,19 @@ body {
     color: white;
 }
 
-#navbar li a:hover{
+#navbar li a:hover,
+#navbar li a.ativo{
+    transition: 0.5s;
     color: #62bbd2;
+}
+#navbar li a.ativo::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #62bbd2;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
 }
 
 #busca {

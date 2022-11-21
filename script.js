@@ -3,5 +3,5 @@ console.log(
     );
 
 function lucao(){
-    
+    console.log("oi");
 }
