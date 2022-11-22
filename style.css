@@ -23,6 +23,13 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
+#cabecudo p{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #imgcabecudo {
     height: 80px;
     width: 250px;
@@ -126,15 +133,18 @@ body {
     background: #F4F4F4
 }
 
-
 ::-webkit-scrollbar-thumb {
     background: #3eb9f1;
     border-radius: 0;
 }
 
-p{
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+#container {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    background-color: black;
+    background-attachment:fixed;
+    padding-top: 234px;
 }

@@ -6,7 +6,7 @@ h1{
     font-family: Poppins, sans-serif;
 }
 
-p{
+#container p{
     font-size: 30px;
     font-style: italic;
     color: white;
@@ -19,6 +19,16 @@ p{
     height: 200px;
     border-radius: 800px;
 }
+
+.imgdodev:hover{
+    transform:scale(1.1);
+    transition: 0.25s;
+}
+.infosdev p:hover{
+    transform:scale(1.1);
+    transition:0.25s;
+}
+
 .tablecenter{
     padding-bottom: 90px;
 
@@ -30,10 +40,4 @@ p{
 }
 .tablecenter caption{
     padding-bottom: 30px;
-}
-
-.tablecenter tr td img:hover{
-    width: 210px;
-    height: 210px;
-    transition: 0.5s;
 }

@@ -1,0 +1,17 @@
+[
+    {
+        "imgskin": "imagens/vandalion.png",
+        "skin": "Vandal Ion",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/phantomsublime.png",
+        "skin": "Phantom Sublime",
+        "preco": 2175
+    },
+    {
+        "imgskin": "imagens/vandalsaqueadora.png",
+        "skin": "Vandal Saquadora",
+        "preco": 1750
+    }
+]
