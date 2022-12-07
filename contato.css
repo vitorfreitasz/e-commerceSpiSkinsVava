@@ -24,20 +24,13 @@ h1{
     transform:scale(1.1);
     transition: 0.25s;
 }
-.infosdev p:hover{
-    transform:scale(1.1);
-    transition:0.25s;
-}
 
 .tablecenter{
-    padding-bottom: 90px;
-
+    padding-bottom: 4px;
 }
+
 .tablecenter tr td{
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-}
-.tablecenter caption{
-    padding-bottom: 30px;
 }

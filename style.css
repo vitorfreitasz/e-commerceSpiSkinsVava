@@ -1,15 +1,19 @@
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
 }
 
 body {
+    padding: 0;
+    margin: 0;
     background-attachment: fixed;
     background-color: #62bbd2;
     width: 100%;
     height: 100%;
+}
+
+#espaco{
+    height: 6rem;
 }
 
 #cabecudo{
@@ -146,7 +150,7 @@ body {
     display: grid;
     background-color: black;
     background-attachment:fixed;
-    padding-top: 234px;
+    padding-top: 50px;
 }
 
 .preco {

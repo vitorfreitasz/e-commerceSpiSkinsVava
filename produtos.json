@@ -15,6 +15,16 @@
         "preco": 1750
     },
     {
+        "imgskin": "imagens/skins/vandalion.png",
+        "skin": "Vandal Íon",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/vandalsaqueadora.png",
+        "skin": "Vandal Saqueadora",
+        "preco": 1750
+    },
+    {
         "imgskin": "imagens/skins/vandalrgx.png",
         "skin": "Vandal RGX",
         "preco": 1750
@@ -27,6 +37,11 @@
     {
         "imgskin": "imagens/skins/phantomion.png",
         "skin": "Phantom Ion",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/phantomsublime.png",
+        "skin": "Phandom Sublime",
         "preco": 1750
     },
     {
