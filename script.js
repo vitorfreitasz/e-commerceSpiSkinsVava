@@ -22,8 +22,6 @@ http.onload = function(){
     }
 }
 
-
-
 /*{"Rifles":
     [
         {
