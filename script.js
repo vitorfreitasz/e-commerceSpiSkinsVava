@@ -18,7 +18,7 @@ http.onload = function(){
             </div>
             `;
         }
-        document.querySelector(".produtos").innerHTML = output;
+        document.querySelector(".produtosdisplay").innerHTML = output;
     }
 }
 

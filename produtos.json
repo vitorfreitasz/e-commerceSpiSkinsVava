@@ -1,17 +1,82 @@
 [
     {
-        "imgskin": "imagens/vandalion.png",
-        "skin": "Vandal Ion",
+        "imgskin": "imagens/skins/vandalchampions.png",
+        "skin": "Vandal Champions",
         "preco": 1750
     },
     {
-        "imgskin": "imagens/phantomsublime.png",
-        "skin": "Phantom Sublime",
+        "imgskin": "imagens/skins/vandalchronovoid.png",
+        "skin": "Vandal Chronovoid",
         "preco": 2175
     },
     {
-        "imgskin": "imagens/vandalsaqueadora.png",
-        "skin": "Vandal Saquadora",
+        "imgskin": "imagens/skins/vandaldragao.png",
+        "skin": "Vandal Dragão",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/vandalrgx.png",
+        "skin": "Vandal RGX",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/vandalsentinela.png",
+        "skin": "Vandal Sentinela",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/phantomion.png",
+        "skin": "Phantom Ion",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/phantomoni.png",
+        "skin": "Phantom Oni",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/phantomprotocolo.png",
+        "skin": "Phantom Protocolo",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/phantomreconhecimento.png",
+        "skin": "Phantom Reconhecimento",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/phantomruina.png",
+        "skin": "Phantom Ruina",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/facaadagaglitchpop.png",
+        "skin": "Adaga GlitchPop",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/facakarambitchampions.png",
+        "skin": "Karambit Champions",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/facakarambitheaver.png",
+        "skin": "Karambit Heaver",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/facakarambitprime.png",
+        "skin": "Karambit Prime",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/facavalorantgo.png",
+        "skin": "Faca Valorant GO!",
+        "preco": 1750
+    },
+    {
+        "imgskin": "imagens/skins/facaxenohunter.png",
+        "skin": "Faca Xenohunter",
         "preco": 1750
     }
 ]
