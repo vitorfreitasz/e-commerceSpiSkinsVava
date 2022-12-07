@@ -16,14 +16,14 @@ display: none;
 }
 
 .slide{
-max-width: 25%;
+width: 25%;
 position: relative;
 transition: 2s;
 }
 
 .slide img{
-max-width: 800px;
-max-height: 350px;
+width: 800px;
+height: 350px;
 }
 
 .manual-navigation{
