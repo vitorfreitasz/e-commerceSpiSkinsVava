@@ -163,22 +163,36 @@ span{
     text-decoration: none;
     font-family: Poppins, sans-serif;
 }
+.produtosdisplay{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding-left: 5px;
+}
 .produtos{
     box-shadow: 2px;
-    display: grid;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
     background-color: #62bcd2b4;
-    grid-template-columns: repeat(auto-fit, minmax(350px,auto));
-    grid-gap: 50px;
     margin: 50px auto;
-    max-width: 1240px;
-    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
 }
 .produtos{
     padding: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
 }
 .produtos img{
-    width: 100%;
+    padding-top: 30px;
+    width: 280px;
+    height: 110px;
     display: block;
 }
 .produtos .skin {
@@ -189,9 +203,10 @@ span{
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.preco { 
+.produtos .preco { 
     font-size: 20px;
     font-weight: 600;
     text-align: center;
     padding: 0 20px 20px 20px;
+    margin-right:;
 } /* EU (VITOR) AINDA VOU TERMINAR O CSS DOS CARDS DO PRODUTOS <3 */
