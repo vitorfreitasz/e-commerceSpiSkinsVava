@@ -10,6 +10,10 @@ body {
     background-color: #62bbd2;
     width: 100%;
     height: 100%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #espaco{
@@ -74,6 +78,31 @@ body {
     bottom: -4px;
     left: 20px;
 }
+#navbar a button{
+    background-color: black;
+    border-style: groove;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#navbar a button:hover,
+#navbar a button.ativo{
+    transition: 0.5s;
+    color: #62bbd2;
+    border-color: #62bbd2;
+}
+#navbar a button.ativo::after{
+    color: #62bbd2;
+    border-color: #62bbd2;
+}
+
+
 
 #busca {
     font-size: 20px;
@@ -210,3 +239,92 @@ span{
     padding: 0 20px 20px 20px;
     margin-right:;
 } /* EU (VITOR) AINDA VOU TERMINAR O CSS DOS CARDS DO PRODUTOS <3 */
+
+.telalogin{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%)scale(1);
+    width: 380px;
+    padding: 20px 30px;
+    background: white;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+}
+.telalogin.active{
+    opacity: 1;
+    transform: translate(-50%,-50%)scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+}
+.telalogin .botaofecha{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: grey;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.telalogin .formulario h2{
+    text-align: center;
+    color: black;
+    margin: 10px 0px 20px;
+    font-size: 20px;
+}
+.telalogin .formulario .dadosdoform{
+    margin: 15px 0px;
+}
+.telalogin .formulario .dadosdoform label{
+    font-size: 14px;
+    color: black;
+}
+.telalogin .formulario .dadosdoform input[type="text"],
+.telalogin .formulario .dadosdoform input[type="password"]{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.telalogin .formulario .dadosdoform input[type="checkbox"]{
+    margin-right: 5px;
+}
+.telalogin .formulario .dadosdoform button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.telalogin .formulario .dadosdoform a{
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+    color: #62bbd2;
+    font-weight: 600;
+}
+.mnsgerror{
+    text-align: center;
+    color: red;
+    background-color: rgb(255, 185, 185);
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}

@@ -21,6 +21,19 @@ http.onload = function(){
         document.querySelector(".produtosdisplay").innerHTML = output;
     }
 }
+function logar(){
+    var email = document.getElementById("email").value;
+    var senha = document.getElementById("senha").value;
+    let msgerror= document.querySelector(".mnsgerror")
+    if(email =='pixdasilvaskins@mandrake.com' && senha == 'sitemandrake'){
+        alert('Logado!')
+    }else{
+        msgerror.setAttribute('style','display: block');
+        msgerror.innerHTML= 'Email ou senha incorretos.';
+        email.focus();
+    }
+}
+
 
 /*{"Rifles":
     [
