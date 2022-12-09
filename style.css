@@ -16,6 +16,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#container {
+    width: 84%;
+    height: 100%;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: grid;
+    background-color: black;
+    background-attachment:fixed;
+    padding-top: 50px;
+}
+
 #espaco{
     height: 6rem;
 }
@@ -41,7 +52,6 @@ body {
 #imgcabecudo {
     height: 80px;
     width: 250px;
-    margin-left: 40px;
 }
 
 #navbar {
@@ -102,8 +112,6 @@ body {
     border-color: #62bbd2;
 }
 
-
-
 #busca {
     font-size: 20px;
     color: white;
@@ -113,9 +121,8 @@ body {
 
 .search-box {
     position: absolute;
-    top: 50%;
-    left: 68%;
-    transform: translate(-50%, -50%);
+    right: 30%;
+    transform: translate(0%, -50%);
     background: black ;
     height: 40px;
     padding: 10px;
@@ -169,17 +176,6 @@ body {
 ::-webkit-scrollbar-thumb {
     background: #3eb9f1;
     border-radius: 0;
-}
-
-#container {
-    width: 90%;
-    height: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    display: grid;
-    background-color: black;
-    background-attachment:fixed;
-    padding-top: 50px;
 }
 
 .preco {
