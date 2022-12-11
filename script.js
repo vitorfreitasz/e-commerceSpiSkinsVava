@@ -11,14 +11,14 @@ http.onload = function(){
             <div class="produtos">
                 <img src="${item.imgskin}" alt="${item.imgskin}">
                 <p class="skin">${item.skin}</p>
-                <p class="preco">
-                    <span>R$</span>
-                    <span>${item.preco}</span>
+                <p id="preco">
+                    <span>VP&dollar; ${item.preco}</span>                  
                 </p>
+                <button id="botaocompra" onlick="addcart(${item.skin})">Comprar</button>
             </div>
             `;
         }
-        document.querySelector(".produtosdisplay").innerHTML = output;
+        document.querySelector("#produtosdisplay").innerHTML = output;
     }
 }
 function logar(){
@@ -33,7 +33,12 @@ function logar(){
         email.focus();
     }
 }
-
+var listacarrinho = []
+function addcart(skin){
+    listacarrinho.push(skin)
+    console.log(listacarrinho)
+}
+console.log(listacarrinho)
 
 /*{"Rifles":
     [
