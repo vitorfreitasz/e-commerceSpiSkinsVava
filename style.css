@@ -43,7 +43,6 @@ body {
 }
 
 #cabecudo p{
-    font-size: 20px;
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,8 +58,8 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 40px;
-
 }
+
 #navbar li{
     list-style: none;
     padding: 0 20px;
@@ -79,6 +78,7 @@ body {
     transition: 0.5s;
     color: #62bbd2;
 }
+
 #navbar li a.ativo::after{
     content: "";
     width: 30%;
@@ -88,6 +88,7 @@ body {
     bottom: -4px;
     left: 20px;
 }
+
 #navbar a button{
     background-color: black;
     border-style: groove;
@@ -101,12 +102,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
+
 #navbar a button:hover,
 #navbar a button.ativo{
     transition: 0.5s;
     color: #62bbd2;
     border-color: #62bbd2;
 }
+
 #navbar a button.ativo::after{
     color: #62bbd2;
     border-color: #62bbd2;
@@ -167,7 +170,6 @@ body {
     background-color: #232C3B;
 }
 
-
 ::-webkit-scrollbar{
     width: 6px;
     background: #F4F4F4
@@ -183,11 +185,13 @@ body {
     text-decoration: none;
     font-family: Poppins, sans-serif;
 }
+
 span{
     color: white;
     text-decoration: none;
     font-family: Poppins, sans-serif;
 }
+
 .produtosdisplay{
     display: block;
     align-items: center;
@@ -195,6 +199,7 @@ span{
     margin: 30px;
     padding-left: 5px;
 }
+
 .produtos{
     box-shadow: 2px;
     align-items: center;
@@ -210,16 +215,19 @@ span{
     padding-right: 20px;
     border-radius: 20px;
 }
+
 .produtos{
     padding: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
 }
+
 .produtos img{
     padding-top: 30px;
     width: 280px;
     height: 110px;
     display: block;
 }
+
 .produtos .skin {
     color: white;
     text-decoration: none;
@@ -228,12 +236,13 @@ span{
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
 .produtos .preco { 
     font-size: 20px;
     font-weight: 600;
     text-align: center;
     padding: 0 20px 20px 20px;
-    margin-right:;
+
 } /* EU (VITOR) AINDA VOU TERMINAR O CSS DOS CARDS DO PRODUTOS <3 */
 
 .telalogin{
@@ -251,6 +260,7 @@ span{
                 opacity 200ms ease-in-out 0ms,
                 transform 200ms ease-in-out 0ms;
 }
+
 .telalogin.active{
     opacity: 1;
     transform: translate(-50%,-50%)scale(1);
@@ -258,6 +268,7 @@ span{
                 opacity 200ms ease-in-out 0ms,
                 transform 200ms ease-in-out 0ms;
 }
+
 .telalogin .botaofecha{
     position: absolute;
     top: 10px;
@@ -271,19 +282,23 @@ span{
     border-radius: 15px;
     cursor: pointer;
 }
+
 .telalogin .formulario h2{
     text-align: center;
     color: black;
     margin: 10px 0px 20px;
     font-size: 20px;
 }
+
 .telalogin .formulario .dadosdoform{
     margin: 15px 0px;
 }
+
 .telalogin .formulario .dadosdoform label{
     font-size: 14px;
     color: black;
 }
+
 .telalogin .formulario .dadosdoform input[type="text"],
 .telalogin .formulario .dadosdoform input[type="password"]{
     margin-top: 5px;
@@ -294,9 +309,11 @@ span{
     border: 1px solid #aaa;
     border-radius: 5px;
 }
+
 .telalogin .formulario .dadosdoform input[type="checkbox"]{
     margin-right: 5px;
 }
+
 .telalogin .formulario .dadosdoform button{
     width: 100%;
     height: 40px;
@@ -308,6 +325,7 @@ span{
     border-radius: 10px;
     cursor: pointer;
 }
+
 .telalogin .formulario .dadosdoform a{
     display: block;
     text-align: right;
@@ -316,6 +334,7 @@ span{
     color: #62bbd2;
     font-weight: 600;
 }
+
 .mnsgerror{
     text-align: center;
     color: red;
