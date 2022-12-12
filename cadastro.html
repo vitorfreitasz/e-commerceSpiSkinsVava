@@ -9,14 +9,16 @@
     <meta name = 'author' content = 'Keven Borges, Samuel Lemos, Vitor Freitas e Yuri Theodoro'>
     <link rel="icon" href="imagens/logo-title.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="carrinho.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel = 'stylesheet' href="slider.css">
     <title>PixDaSilvaJr Skins</title>
 
     <!--- ---------------------------FONTE DO CABEÇALHO------------------------------------- --->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <!-- -----------------------------------         ----------------------------------------- -->
 
 </head>
 
@@ -25,13 +27,13 @@
     <section id="cabecudo">
 
         <a href="index.html"><img src="imagens/pixlogo.png" id="imgcabecudo"></a>
-        
+
         <div>
             <ul id="navbar">
                 <li>
                     <!----------------------------- SEARCH BOX ------------------------------->
                     <div class="search-box">
-                        <input type="'text" class="search-txt" placeholder="Pesquisar">
+                        <input type="text" class="search-txt" placeholder="Pesquisar">
                         <a href="#" class="search-btn">
                             <img src="imagens/lupa.png" alt="Lupa" height="20" width="20">
                         </a>
@@ -40,16 +42,39 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="skins.html">Skins</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li><a class="ativo" href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </li>
+                <li><a href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 <li><a href="login.html"><button id="mostra-login">Login</button></a></li>
             </ul>
         </div>
-        
     </section>
-
-    <script src="https://kit.fontawesome.com/0465f3e563.js" crossorigin="anonymous"></script>
-    <script src="script.js" crossorigin="anonymous"></script>
-    <script src="carrinho.js"></script>
+    <div class="telacadastro">
+        <div class="formulario">
+            <h2>Cadastro</h2>
+            <div class="mnsgerror"></div>
+            <div class="mnsgsucess"></div>
+            <div class="dadosdoform">
+                <label id="labelnome" for="nome">Seu nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome...">
+            </div>
+            <div class="dadosdoform">
+                <label id="labelemail" for="email">Email</label>
+                <input type="text" id="email" placeholder="Digite seu email...">
+            </div>
+            <div class="dadosdoform">
+                <label id="labelsenha" for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha...">
+            </div>
+            <div class="dadosdoform">
+                <label id="labelsenha2" for="labelsenha2">Confirme sua senha</label>
+                <input type="password" id="senha2" placeholder="Digite novamente sua senha...">
+            </div>
+            <div class="dadosdoform">
+                <button onclick="cadastrar()">Cadastre-se</button>
+            </div>
+        </div>
+    </div>
+<script src="https://kit.fontawesome.com/0465f3e563.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="cadastro.js"></script>
 </body>
 </html>

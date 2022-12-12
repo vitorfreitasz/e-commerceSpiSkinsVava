@@ -1,4 +1,4 @@
-.telalogin{
+.telacadastro{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -14,7 +14,7 @@
                 transform 200ms ease-in-out 0ms;
 }
 
-.telalogin.active{
+.telacadastro.active{
     opacity: 1;
     transform: translate(-50%,-50%)scale(1);
     transition: top 0ms ease-in-out 0ms,
@@ -22,7 +22,7 @@
                 transform 200ms ease-in-out 0ms;
 }
 
-.telalogin .botaofecha{
+.telacadastro .botaofecha{
     position: absolute;
     top: 10px;
     right: 10px;
@@ -36,24 +36,24 @@
     cursor: pointer;
 }
 
-.telalogin .formulario h2{
+.telacadastro .formulario h2{
     text-align: center;
     color: black;
     margin: 10px 0px 20px;
     font-size: 20px;
 }
 
-.telalogin .formulario .dadosdoform{
+.telacadastro .formulario .dadosdoform{
     margin: 15px 0px;
 }
 
-.telalogin .formulario .dadosdoform label{
+.telacadastro .formulario .dadosdoform label{
     font-size: 14px;
     color: black;
 }
 
-.telalogin .formulario .dadosdoform input[type="text"],
-.telalogin .formulario .dadosdoform input[type="password"]{
+.telacadastro .formulario .dadosdoform input[type="text"],
+.telacadastro .formulario .dadosdoform input[type="password"]{
     margin-top: 5px;
     display: block;
     width: 100%;
@@ -63,11 +63,11 @@
     border-radius: 5px;
 }
 
-.telalogin .formulario .dadosdoform input[type="checkbox"]{
+.telacadastro .formulario .dadosdoform input[type="checkbox"]{
     margin-right: 5px;
 }
 
-.telalogin .formulario .dadosdoform button{
+.telacadastro .formulario .dadosdoform button{
     width: 100%;
     height: 40px;
     border: none;
@@ -77,16 +77,17 @@
     color: white;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 30px;
 }
 
-.telalogin .formulario .dadosdoform a{
+.telacadastro .formulario .dadosdoform a{
     text-align: right;
     font-size: 14px;
     text-decoration: none;
     color: #62bbd2;
     font-weight: 600;
 }
-.telalogin .formulario .dadosdoform p{
+.telacadastro .formulario .dadosdoform p{
     font-size: 14px;
     color: rgb(136, 135, 135);
     font-weight: 200;
@@ -96,6 +97,14 @@
     text-align: center;
     color: red;
     background-color: rgb(255, 185, 185);
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+.mnsgsucess{
+    text-align: center;
+    color: rgb(0, 133, 29);
+    background-color: rgb(197, 255, 185);
     padding: 10px;
     border-radius: 4px;
     display: none;
