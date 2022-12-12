@@ -1,55 +1,54 @@
 <div class="slider">
+    <div class="slides">
+        <!-- BOTÕES DE RADIO -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+        <!-- FIM - BOTÕES DE RADIO -->
 
-            <div class="slides">
-                <!-- BOTÕES DE RADIO -->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <input type="radio" name="radio-btn" id="radio5">
-                <input type="radio" name="radio-btn" id="radio6">
-                <!-- FIM - BOTÕES DE RADIO -->
-    
-                <!-- IMAGENS SLIDES -->
-                <div class="slide first">
-                    <img src="/imagens/pacotes/pacote_glitchpop.png" alt="Coleção Glitchpop"/>
-                </div>
-                <div class="slide">
-                    <img src="/imagens/pacotes/pacote_ion.png" alt="Coleção Ion"/>
-                </div>
-                <div class="slide">
-                    <img src="/imagens/pacotes/pacote_origins.png" alt="Coleção Origins"/>
-                </div>
-                <div class="slide">
-                    <img src="/imagens/pacotes/pacote_saqueador2.png" alt="Coleção Saqueador 2.0"/>
-                </div>
-                <div class="slide">
-                    <img src="/imagens/pacotes/pacote_sublime2.png" alt="Coleção Sublime 2.0"/>
-                </div>
-                <div class="slide">
-                    <img src="/imagens/pacotes/pacote_sentinelsoflight.png" alt="Coleção Sentinels of Light"/>
-                </div>
-                <!-- FIM - IMAGENS SLIDES -->
-    
-                <!-- NAVIGATION AUTO -->
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                    <div class="auto-btn5"></div>
-                    <div class="auto-btn6"></div>
-                <!-- FIM - NAVIGATION AUTO -->
-                </div>
-            </div>
-            
-            <div class="manual-navigation">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-                <label for="radio5" class="manual-btn"></label>
-                <label for="radio6" class="manual-btn"></label>
-            </div>
-            
+        <!-- IMAGENS SLIDES -->
+        <div class="slide first">
+            <img src="/imagens/pacotes/pacote_glitchpop.png" alt="Coleção Glitchpop"/>
         </div>
+        <div class="slide">
+            <img src="/imagens/pacotes/pacote_ion.png" alt="Coleção Ion"/>
+        </div>
+        <div class="slide">
+            <img src="/imagens/pacotes/pacote_origins.png" alt="Coleção Origins"/>
+        </div>
+        <div class="slide">
+            <img src="/imagens/pacotes/pacote_saqueador2.png" alt="Coleção Saqueador 2.0"/>
+        </div>
+        <div class="slide">
+            <img src="/imagens/pacotes/pacote_sublime2.png" alt="Coleção Sublime 2.0"/>
+        </div>
+        <div class="slide">
+            <img src="/imagens/pacotes/pacote_sentinelsoflight.png" alt="Coleção Sentinels of Light"/>
+        </div>
+        <!-- FIM - IMAGENS SLIDES -->
+
+        <!-- NAVIGATION AUTO -->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
+            <div class="auto-btn6"></div>
+        <!-- FIM - NAVIGATION AUTO -->
+        </div>
+    </div>
+    
+    <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
+        <label for="radio6" class="manual-btn"></label>
+    </div>
+    
+</div>
