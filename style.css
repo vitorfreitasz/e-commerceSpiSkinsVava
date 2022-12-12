@@ -29,7 +29,7 @@ body {
 }
 
 #espaco{
-    height: 6rem;
+    height: 4rem;
 }
 
 #cabecudo{
@@ -263,14 +263,11 @@ span{
 
 /* Footer */
 footer{
-   
     font-family: 'Poppins', sans-serif;
 }
-*{
-    
-}
+
 .container{
-    max-width: 1170px;
+    max-width: 1400px;
     margin:auto;
 }
 .row{
