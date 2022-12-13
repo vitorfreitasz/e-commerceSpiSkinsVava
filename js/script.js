@@ -1,3 +1,5 @@
+/* Aqui puxamos a lista dos produtos do JSON */
+
 let http = new XMLHttpRequest();
 http.open('get','produtos.json', true);
 http.send();
@@ -21,31 +23,4 @@ http.onload = function(){
         document.querySelector("#produtosdisplay").innerHTML = output;
     }
 }
-
-
-
-
-
-
-
-var listacarrinho = []
-function addcart(skin){
-    listacarrinho.push(skin)
-    console.log(listacarrinho)
-}
-console.log(listacarrinho)
-
-/*{"Rifles":
-    [
-        {
-            "arma": "Vandal",
-            "skinsDaArma": ["Saqueadora","GlitchPop","Ion"],
-            "preços":[1750,1750,2175]
-        },
-        {
-            "arma": "Phantom",
-            "skinsDaArma": ["Blastx","GlitchPop","Ion"], 
-            "preços":[2175,1750,2175]
-        }
-    ]
-}*/
+/* -------------------------------------------------------------------------------------- */

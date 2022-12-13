@@ -1,3 +1,5 @@
+/* Aqui salvando as variáveis */
+
 let nomes = document.querySelector('#nome')
 let labelnome = document.querySelector('#labelnome')
 let validNome = false
@@ -16,6 +18,10 @@ let validconfirmSenha = false
 
 let msgerror = document.querySelector('.mnsgerror')
 let msgsucess = document.querySelector('.mnsgsucess')
+
+/*---------------------------------------------------------------------*/
+
+/* Configurando os eventos para uma validação básica e rápida (Não está 100% pronto, mas já está funcionando.) */
 
 nomes.addEventListener('keyup', () => {
     if(nomes.value.length <= 2){
@@ -49,6 +55,10 @@ confirmsenha.addEventListener('keyup', () => {
     }
 })
 
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+/* Criando a função de cadastro. Ela adiciona OU CRIA a lista no localStorage, e adiciona os dados lá. */
+
 function cadastrar(){
     if(validNome && validEmail && validSenha && validconfirmSenha){
         let listaDeUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
@@ -77,3 +87,4 @@ function cadastrar(){
         msgsucess.innerHTML = ""
     }
 }
+/*------------------------------------------------------------------------------------------------------------------------*/
