@@ -24,7 +24,7 @@ http.onload = function(){
 }
 let carrinho=[]
 function addcart(x){
-    //window.location.href='login.html'
+    window.location.href='login.html'
     carrinho.push(x)
     console.log(carrinho)
     /*let output = "";
