@@ -1,0 +1,383 @@
+*{
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-color: #62bbd2;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 84%;
+    height: 100%;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: grid;
+    background-color: black;
+    background-attachment:fixed;
+    padding-top: 79px;
+    box-shadow: 2px 2px 100px 5px rgba(0, 0, 0, 0.9); 
+}
+
+#espaco{
+    height: 4rem;
+}
+
+#text_resumo{
+    text-align: justify;
+    margin-left: 16%;
+}
+
+#cabecudo{
+    background-color: black;
+    display: flex;
+    position: absolute;
+    padding: 20px 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#cabecudo p{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imgcabecudo {
+    height: 80px;
+    width: 250px;
+    margin-left: 70px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 65px;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+#navbar li a:hover,
+#navbar li a.ativo{
+    transition: 0.5s;
+    color: #62bbd2;
+}
+
+#navbar li a.ativo::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #62bbd2;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#navbar a button{
+    background-color: black;
+    border-style: groove;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#navbar a button:hover,
+#navbar a button.ativo{
+    transition: 0.5s;
+    color: #62bbd2;
+    border-color: #62bbd2;
+}
+
+#navbar a button.ativo::after{
+    color: #62bbd2;
+    border-color: #62bbd2;
+}
+
+#busca {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-box {
+    position: absolute;
+    right: 30%;
+    transform: translate(0%, -50%);
+    background: black ;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: black;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #232C3B;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background: #F4F4F4
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3eb9f1;
+    border-radius: 0;
+}
+
+#produtosdisplay{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    margin-left: 125px;
+    padding-left: 5px;
+}
+
+.produtos{
+    box-shadow: 2px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    background-color: #62bcd2b4;
+    margin: 50px auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 300px;
+    max-height: 360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+span{
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+#preco {
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.produtos{
+    padding: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
+}
+
+.produtos img{
+    padding-top: 30px;
+    width: 280px;
+    height: 110px;
+    display: block;
+}
+
+.produtos .skin {
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#botaocompra{
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    border-radius: 15px;
+    background: #ff4655;
+    border: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    width: 90%;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+/* EU (VITOR) AINDA VOU TERMINAR O CSS DOS CARDS DO PRODUTOS <3 */
+
+/* Footer */
+footer{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    max-height: 200px;
+    margin:auto;
+    margin-bottom: 0;
+    align-content: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 22%;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #62bbd2 ;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col
+ ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+ }
+ .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,2555,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+ }
+ .footer-col .social-links a:hover{
+    color: #000000;
+    background-color: #ffffff;
+ }
+
+ @media(max-width: 767px){
+.footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+ @media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+     }
+/* Fim footer */
+
+/*Inicio CSS de cada uma das skins */
+
+left-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.select-image{
+    max-width: 400px;
+}
+
+.select-image img{
+    width: 100%
+}
+
+.thumbanils{
+    display: flex;
+    max-width: 400px;
+}
+
+
