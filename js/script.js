@@ -15,7 +15,7 @@ http.onload = function(){
                 <p id="preco">
                     <span>VP&dollar; ${item.preco}</span>                  
                 </p>
-                <button id="botaocompra" onlick="${addcart(item.skin)}">Comprar</button>
+                <button id="botaocompra" onlick="addcart(${item.skin})">Comprar</button>
             </div>
             `;
         }
