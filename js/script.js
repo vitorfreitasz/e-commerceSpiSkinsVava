@@ -10,7 +10,7 @@ http.onload = function(){
         for(let item of produtos){
             output += `
             <div class="produtos">
-            <a href = "${item.skinlink}">
+            <a href = "padrao.html">
             <img src="${item.imgskin}" alt="${item.imgskin}">
             <p class="skin">${item.skin}</p>
             <p id="preco">
