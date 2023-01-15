@@ -16,6 +16,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body a{
+    text-decoration: none;
+}
+
 #container {
     width: 84%;
     height: 100%;
@@ -212,22 +216,6 @@ body {
     border-radius: 20px;
 }
 
-span{
-    color: white;
-    text-decoration: none;
-    font-family: Poppins, sans-serif;
-}
-
-#preco {
-    color: white;
-    text-decoration: none;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    padding: 0 20px 20px 20px;
-}
-
 .produtos{
     padding: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
@@ -247,6 +235,22 @@ span{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
+}
+
+span{
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+#preco {
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 20px 20px 20px;
 }
 
 #botaocompra{
