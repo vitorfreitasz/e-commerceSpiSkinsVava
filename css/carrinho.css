@@ -1,9 +1,9 @@
-#produtoscarrinho{
+.produtoscarrinho{
     width: 100%;
-    height: 50%;
     padding-top: 400px;
     padding-bottom: 430px;
-    padding-left: 30%;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 .cartproducts{
     font-size: 30px;
@@ -11,4 +11,16 @@
     color: white;
     text-decoration: none;
     font-family: Poppins, sans-serif;
+}
+#tabelaprodutos{
+    color: aliceblue;
+}
+#tabelaprodutos td{
+    width: 600px;
+    
+}
+
+#tabelaprodutos td img{
+    max-width: 300px;
+    max-height: 250px;
 }

@@ -53,23 +53,23 @@ function salvadiv(x){
                     <div class="left-side">
                         <div class="items">
                             <div class="select-image">
-                                <img src="/imagens/todas-skins/Vandal\Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
+                                <img src="/imagens/todas-skins/Vandal/Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
                             </div>
                             <div class="thumbnails">
                                 <div class="thumbnail">
-                                    <img src="/imagens/todas-skins/Vandal\Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
+                                    <img src="/imagens/todas-skins/Vandal/Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
                                 </div>
 
                                 <div class="thumbnail">
-                                    <img src="/imagens/todas-skins/Vandal\Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
+                                    <img src="/imagens/todas-skins/Vandal/Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
                                 </div>
 
                                 <div class="thumbnail">
-                                    <img src="/imagens/todas-skins/Vandal\Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
+                                    <img src="/imagens/todas-skins/Vandal/Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
                                 </div>
 
                                 <div class="thumbnail">
-                                    <img src="/imagens/todas-skins/Vandal\Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
+                                    <img src="/imagens/todas-skins/Vandal/Vandal Champions 2021/AnyConv.com__Champions_2021_Vandal.png">
                                 </div>
                             </div>
                         </div>
