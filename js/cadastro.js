@@ -66,7 +66,8 @@ function cadastrar(){
             {
                 nomeCad: nomes.value,
                 emailCad: email.value,
-                senhaCad: senha.value
+                senhaCad: senha.value,
+                cartCad: []
             }
         )
         localStorage.setItem('listaUser', JSON.stringify(listaDeUser))

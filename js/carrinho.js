@@ -5,7 +5,7 @@ if(localStorage.getItem('token')==null){
     window.location.href='login.html'
 }
 
-let carrinho=[]
+/*let carrinho=[]
 function addcart(x){
     carrinho.push(x)
     console.log(carrinho)
@@ -18,4 +18,3 @@ function addcart(x){
         `;
     }/
     document.querySelector("#produtoscarrinho").innerHTML = outputt;*/
-}

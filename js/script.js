@@ -23,5 +23,18 @@ http.onload = function(){
     }
 }
 
+let carrinho=[]
+function addcart(x){
+    carrinho.push(x)
+    console.log(carrinho)
+    usuario=JSON.parse(localStorage.getItem('userLog'))
+    //.filter(item => item.cart !== carrinho)
+    usuario.cart = carrinho
+    console.log(usuario)
+    localStorage.removeItem('userLog')
+    localStorage.setItem('userLog', JSON.stringify(usuario))
+
+
+}
 
 /* -------------------------------------------------------------------------------------- */

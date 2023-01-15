@@ -9,7 +9,9 @@ function logar(){
     let userValid = {
         nome: '',
         email: '',
-        senha: ''
+        senha: '',
+        cart: []
+
     }
 
     lista_User = JSON.parse(localStorage.getItem('listaUser'))
@@ -19,7 +21,8 @@ function logar(){
             userValid = {
                 nome: item.nomeCad,
                 email: item.emailCad, 
-                senha: item.senhaCad
+                senha: item.senhaCad,
+                cart: item.cartCad
             } /* Depois, ela percorre a lista do JSON verificando se o que foi digitado no input confere com alguma conta cadastrada, se sim, armazena na lista userValid */
         }
     });
@@ -31,7 +34,7 @@ function logar(){
         }, 3000)
         
         /* Depois faz a mesma verificação pra efetuar o login, se estiver correta, ela envia o usuário para a tela principal index.html */
-
+        localStorage.setItem('userLog', JSON.stringify(userValid))
         let token = Math.random().toString(16).substring(2) /* Aqui geramos um token aleatório para cada login, no qual se faz as verificações como na tela de login. */
         localStorage.setItem('token', token)                /* Armazenamos ele no localStorage */
 
