@@ -10,7 +10,7 @@ http.onload = function(){
         for(let item of produtos){
             output += `
             <div class="produtos">
-            <a href = "padrao.html" onclick="salvadiv('${item.skin}')">
+            <a href = "#" onclick="salvadiv('${item.skin}')">
             <img src="${item.imgskin}" alt="${item.imgskin}">
             <p class="skin">${item.skin}</p>
             <p id="preco">
@@ -45,10 +45,10 @@ function salvadiv(x){
     http.send();
     http.onload = function(){
         if(this.readyState == 4 && this.status==200){
-            let produtos = JSON.parse(this.responseText);
+            let produtoss = JSON.parse(this.responseText);
             let outputt = "";
-            for(let item of produtos){
-                if(item.skin == str(prodt)){
+            for(let item of produtoss){
+                if(item.skin == prodt){
                     outputt += `
                     <div class="left-side">
                         <div class="items">
@@ -99,10 +99,11 @@ function salvadiv(x){
                         </div>
                     </div>
                     `;
+                    }
                 }
+                console.log(outputt)
+                document.querySelector("div#produtospadrao").innerHTML = outputt;
             }
-            document.querySelector("#produtopadrao").innerHTML = outputt;
-        }
     }
 }
 
