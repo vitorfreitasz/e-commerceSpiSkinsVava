@@ -5,7 +5,6 @@ if(localStorage.getItem('token')==null){
     window.location.href='login.html'
 }
 
-
 let http = new XMLHttpRequest();
 http.open('get','produtos.json', true);
 http.send();
@@ -32,10 +31,25 @@ http.onload = function(){
                             </td>
                         </tr>
                     </table>
+                    
                     `;
                 }
             }
         }
         document.querySelector(".produtoscarrinho").innerHTML = output;
     }
+}
+
+dadosusuario = JSON.parse(localStorage.getItem('userLog'))
+let carrinho= dadosusuario.cart
+function removecart(x){
+    carrinho.splice(x)
+    console.log(carrinho)
+    usuario=JSON.parse(localStorage.getItem('userLog'))
+    //.filter(item => item.cart !== carrinho)
+    usuario.cart = carrinho
+    console.log(usuario)
+    localStorage.removeItem('userLog')
+    localStorage.setItem('userLog', JSON.stringify(usuario))
+    window.location.reload();
 }
