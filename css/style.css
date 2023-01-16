@@ -372,3 +372,7 @@ body {
     width: 1000px;
     margin: auto;
   }
+#txtmaisvendidos{
+    text-align: center;
+    font-size: 30px;
+}
