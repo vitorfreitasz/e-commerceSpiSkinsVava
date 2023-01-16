@@ -81,11 +81,11 @@
 
 #subtotal{
     background-color: #62bbd2;
-    margin-left: 89%;
+    margin-left: 10rem;
     border-radius: 10px;
 }
 
 #subtotal p{
-    margin-right: 10px;
+    margin-right: 40px;
     text-align: right; 
 }
