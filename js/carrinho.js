@@ -14,9 +14,11 @@ http.onload = function(){
         let Userlog = JSON.parse(localStorage.getItem('userLog'))
         let cartuser = Userlog.cart
         let output = "";
+        let somapreco = 0;
         for(let item of produtos){
             for(let prdt of cartuser){
                 if( prdt == item.skin){
+                    somapreco += item.preco;
                     output += `
                     <table id = "tabelaprodutos" border="2px" bgcolor = "#62bbd2">
                         <tr>
@@ -35,10 +37,19 @@ http.onload = function(){
                     `;
                 }
             }
+              
         }
+        output += `
+            <div id = "subtotal">
+                <p>Total: ${somapreco}</p>
+            </div>
+            `;
+
         document.querySelector(".produtoscarrinho").innerHTML = output;
     }
 }
+
+    
 
 dadosusuario = JSON.parse(localStorage.getItem('userLog'))
 let carrinho= dadosusuario.cart

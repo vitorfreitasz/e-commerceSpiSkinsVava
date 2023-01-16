@@ -5,6 +5,7 @@
     padding-left: 5rem;
     padding-right: 5rem;
 }
+
 .cartproducts{
     font-size: 30px;
     font-style: italic;
@@ -12,9 +13,11 @@
     text-decoration: none;
     font-family: Poppins, sans-serif;
 }
+
 #tabelaprodutos{
     color: aliceblue;
 }
+
 #tabelaprodutos td{
     width: 600px;
     text-align: center;
@@ -62,11 +65,27 @@
     width: 20%;
     cursor: pointer;
 }
+
 .textzin{
     padding-top: 100px;
     text-align: center;
 }
+
 .textzin h5{
     color: rgb(255, 86, 86);
+    background-color: #270003;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 5px;
+}
 
+#subtotal{
+    background-color: #62bbd2;
+    margin-left: 89%;
+    border-radius: 10px;
+}
+
+#subtotal p{
+    margin-right: 10px;
+    text-align: right; 
 }

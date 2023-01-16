@@ -47,4 +47,11 @@ function salvadiv(x){
 }
 
 
+function pagFinal(){
+    setTimeout(()=>{
+        window.location.href='finalizado.html'
+    }, 1000)
+}
+
+
 /* -------------------------------------------------------------------------------------- */

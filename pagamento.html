@@ -106,7 +106,7 @@
         <div class="input_group">
             <div class="input_box">
                 <h4>Detalhes do pagamento</h4>
-                <input type="radio" name="pay" class="radio" id="bc1" checked>
+                <input type="radio" name="pay" class="radio" id="bc1">
                 <label for="bc1"><span>
                     <i class="fa fa-cc-visa" ></i>Cartão de Crédito
                 </span></label>
@@ -117,32 +117,33 @@
         </div>
         <div class="input_group">
             <div class="input_box">
-            <input type="tel" class="name" placeholder="Número do cartão 1111-2222-3333-4444" required>
+            <input type="tel" class="name" placeholder="Número do cartão 1111-2222-3333-4444">
             <i class="fa fa-credit-card icon" aria-hidden="true"></i>
             </div>
         </div>
         <div class="input_group">
             <div class="input_box">
-            <input type="tel" class="name" placeholder="CVV" required>
+            <input type="tel" class="name" placeholder="CVV">
             <i class="fa fa-user icon" aria-hidden="true"></i>
         </div>
     </div>
     <div class="input_group">
         <div class="input_box">
-        <input type="tel" class="name" placeholder="Validade" required class="name">
+        <input type="tel" class="name" placeholder="Validade" class="name">
         <i class="fa fa-calendar icon" aria-hidden="true"></i>
         </div>
     </div>
 
     <div class="input_group">
         <div class="input_box">
-        <a href="finalizado.html"> <button>Pagar</button> </a>
+        <button onclick="pagFinal()">Pagar</button>
         </div>
     </div>
 
         <!--payment details end-->
         </form>
     </div>
+    <script src="./js/script.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0465f3e563.js" crossorigin="anonymous"></script>
 </body>
 </html>
