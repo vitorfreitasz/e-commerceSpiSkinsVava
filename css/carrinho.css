@@ -80,12 +80,12 @@
 }
 
 #subtotal{
-    background-color: #62bbd2;
-    margin-left: 10rem;
-    border-radius: 10px;
+    width: 120px;
+    margin-left: auto;
 }
 
 #subtotal p{
-    margin-right: 40px;
-    text-align: right; 
+    background-color: #62bbd2;
+    border-radius: 10px; 
+    padding-left: 10px;
 }
