@@ -55,7 +55,14 @@ function removecart(x){
 }
 
 function gofinalpage(){
-    setTimeout(()=>{
-        window.location.href='pagamento.html'
-    }, 1000)
+    if(carrinho.length > 0){
+        setTimeout(()=>{
+            window.location.href='pagamento.html'
+        }, 1000)
+    } else{
+        document.querySelector('.textzin h5').innerHTML = 'Seu carrinho está vazio!'
+        setTimeout(()=>{
+            document.querySelector('.textzin h5').innerHTML = ''
+        }, 5000)
+    }
 }
