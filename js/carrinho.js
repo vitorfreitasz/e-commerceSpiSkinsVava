@@ -77,3 +77,10 @@ function gofinalpage(){
         }, 5000)
     }
 }
+function usuario(){
+    if(localStorage.getItem('token')==null){
+        window.location.href='login.html'
+    } else{
+        window.location.href='perfil.html'
+    }
+}
