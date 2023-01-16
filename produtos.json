@@ -121,7 +121,7 @@
     {
         "classe": "faca",
         "linkskin": "facargx.html",
-        "imgskin": "/imagens/todas-skins/Facas/Faca RGX 11z Pro/AnyConv.com__RGX_11z_Pro_Blade_Blue .png",
+        "imgskin": "./imagens/todas-skins/Facas/Faca RGX 11z Pro/AnyConv.com__RGX_11z_Pro_Blade_Blue .png",
         "skin": "Faca Rgx",
         "preco": 130
     }
