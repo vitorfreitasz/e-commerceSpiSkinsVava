@@ -10,11 +10,11 @@ http.onload = function(){
         for(let item of produtos){
             output += `
             <div class="produtos">
-            <a href = "padrao.html" onclick="salvadiv('${item.skin}')">
+            <a href = "${item.linkskin}">
             <img src="${item.imgskin}" alt="${item.imgskin}">
             <p class="skin">${item.skin}</p>
             <p id="preco">
-            <span>VP&dollar; ${item.preco}</span>                  
+            <span>R&dollar; ${item.preco}</span>                  
             </p></a>
             <button id="botaocompra" onclick="addcart('${item.skin}')">Comprar</button>
             </div>

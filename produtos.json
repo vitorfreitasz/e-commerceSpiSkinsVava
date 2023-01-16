@@ -1,122 +1,128 @@
 [
     {
         "classe": "rifle",
+        "linkskin": "championsvandal.html",
         "imgskin": "imagens/skins/vandalchampions.png",
         "skin": "Vandal Champions",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
+        "linkskin": "chronovoidvandal.html",
         "imgskin": "imagens/skins/vandalchronovoid.png",
         "skin": "Vandal Chronovoid",
-        "preco": 2175
+        "preco": 85
     },
     {
         "classe": "rifle",
+        "linkskin": "dragaovandal.html",
         "imgskin": "imagens/skins/vandaldragao.png",
         "skin": "Vandal Dragão",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
+        "linkskin": "ionvandal.html",
         "imgskin": "imagens/skins/vandalion.png",
         "skin": "Vandal Íon",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/vandalsaqueadora.png",
         "skin": "Vandal Saqueadora",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/vandalrgx.png",
         "skin": "Vandal RGX",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/vandalsentinela.png",
         "skin": "Vandal Sentinela",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/phantomion.png",
         "skin": "Phantom Ion",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/phantomsublime.png",
         "skin": "Phantom Sublime",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/phantomoni.png",
         "skin": "Phantom Oni",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/phantomprotocolo.png",
         "skin": "Phantom Protocolo",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/phantomreconhecimento.png",
         "skin": "Phantom Reconhecimento",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "rifle",
         "imgskin": "imagens/skins/phantomruina.png",
         "skin": "Phantom Ruina",
-        "preco": 1750
+        "preco": 85
     },
     {
         "classe": "faca",
         "imgskin": "imagens/skins/facaadagaglitchpop.png",
         "skin": "Adaga GlitchPop",
-        "preco": 1750
+        "preco": 130
     },
     {
         "classe": "faca",
         "imgskin": "imagens/skins/facakarambitchampions.png",
         "skin": "Karambit Champions",
-        "preco": 1750
+        "preco": 130
     },
     {
         "classe": "faca",
+        "linkskin": "karambitreaver.html",
         "imgskin": "imagens/skins/facakarambitheaver.png",
         "skin": "Karambit Heaver",
-        "preco": 1750
+        "preco": 130
     },
     {
         "classe": "faca",
         "imgskin": "imagens/skins/facakarambitprime.png",
         "skin": "Karambit Prime",
-        "preco": 1750
+        "preco": 130
     },
     {
         "classe": "faca",
         "imgskin": "imagens/skins/facavalorantgo.png",
         "skin": "Faca Valorant GO!",
-        "preco": 1750
+        "preco": 130
     },
     {
         "classe": "faca",
         "imgskin": "imagens/skins/facaxenohunter.png",
         "skin": "Faca Xenohunter",
-        "preco": 1750
+        "preco": 130
     },
     {
         "classe": "faca",
+        "linkskin": "facargx.html",
         "imgskin": "/imagens/todas-skins/Facas/Faca RGX 11z Pro/AnyConv.com__RGX_11z_Pro_Blade_Blue .png",
         "skin": "Faca Rgx",
-        "preco": 1750
+        "preco": 130
     }
 ]
