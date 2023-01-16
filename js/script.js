@@ -78,7 +78,7 @@ function salvadiv(x){
 
                     <div class="right-side">
                         <div class="content">
-                            <h6> Rifles </h6>
+                            <h6> ${item.classe} </h6>
                             <h1> ${item.skin} </h1>
                             <p> Celebre o Champions 2021 e apoie a sua equipe favorita com essa skin raríssima para Vandal.
                                 . </p>

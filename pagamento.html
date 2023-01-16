@@ -8,31 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = 'author' content = 'Keven Borges, Samuel Lemos, Vitor Freitas e Yuri Theodoro'>
     <link rel="icon" href="imagens/logo-title.png">
-    <link rel="stylesheet" href="./css/stylepay.css">
-    <link rel = 'stylesheet' href="./css/slider.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <title>PixDaSilva Skins</title>
-
-    <!--- ---------------------------FONTE DO CABEÇALHO------------------------------------- --->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pags.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
     
-    <section id="cabecudo">
-
-        <a href="index.html"><img src="imagens/pixlogo.png" id="imgcabecudo"></a>
-        
-        <div>
-            <ul id="navbar">
-                <li>
-    </section>
-
-
-
     <div class="wrapper">
         <h2>Payment Form</h2>
         <form action="" method="POST">
@@ -103,42 +85,42 @@
                 <input type="radio" name="pay" class="radio"
                 id="bc1" checked>
                 <label for="bc1"><span>
-                    <i class="fa fa-cc-visa"></i>Credit Card
+                    <i class="fa fa-cc-visa" ></i>Credit Card
                 </span></label>
                 <input type="radio" name="pay" class="radio"
                 id="bc2" checked>
                 <label for="bc2"><span>
-                    <i class="fa fa-cc-paypal"></i>Paypal
+                    <i class="fa fa-cc-paypal" aria-hidden="true"></i>Paypal
                 </span></label>
             </div>
         </div>
         <div class="input_group">
             <div class="input_box">
             <input type="tel" class="name" placeholder="Card Number 1111-2222-3333-4444" required>
-            <i class="fa fa-credit-card icon"></i>
+            <i class="fa fa-credit-card icon" aria-hidden="true"></i>
             </div>
         </div>
         <div class="input_group">
             <div class="input_box">
             <input type="tel" class="name" placeholder="Card CVC 632" required>
-            <i class="fa fa-user icon"></i>
+            <i class="fa fa-user icon" aria-hidden="true"></i>
         </div>
     </div>
     <div class="input_group">
         <div class="input_box">
         <input type="tel" class="name" placeholder="Exp Month" required>
-        <i class="fa fa-calendar icon"></i>
+        <i class="fa fa-calendar icon" aria-hidden="true"></i>
         </div>
     </div>
     <div class="input_group">
         <div class="input_box">
         <input type="tel" class="name" placeholder="Exp Year" required>
-        <i class="fa fa-calendar-o icon"></i>
+        <i class="fa fa-calendar-o icon" aria-hidden="true"></i>
         </div>
     </div>
     <div class="input_box">
         <input type="number" class="name" placeholder="Enter Amounth" required>
-        <i class="fa fa-money icon"></i>
+        <i class="fa fa-money icon" aria-hidden="true"></i>
         </div>
     </div>
     <div class="input_group">
@@ -151,47 +133,4 @@
         </form>
     </div>
 
-
-
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>empresa</h4>
-                    <ul>
-                        <li><a href="contato.html">Sobre nós</a></li>
-                        <li><a href="#">nosso serviço</a></li>
-                        <li><a href="#">políticas de privacidade</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>ajuda</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">envio</a></li>
-                        <li><a href="#">devolução</li>
-                        <li><a href="#">opções de pagamento</a></li>
-                    </ul>
-                </div>
-    
-                <div class="footer-col">
-                    <h4>siga-nos</h4>
-                    <div class="social-links">
-                        <a href="contato.html"><i class="fab fa-facebook-f"></i></a>
-                        <a href="contato.html"><i class="fab fa-twitter"></i></a>
-                        <a href="contato.html"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- FIM FOOTER -->
-
-    <script src="https://kit.fontawesome.com/0465f3e563.js" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/slider.js"></script>
-
 </body>
-</html>
