@@ -5,16 +5,37 @@ if(localStorage.getItem('token')==null){
     window.location.href='login.html'
 }
 
-/*let carrinho=[]
-function addcart(x){
-    carrinho.push(x)
-    console.log(carrinho)
-    //let outputt = "";
-    /*for(let item of carrinho){
-        outputt += `
-        <div class="carrinhoso">
-            <p class="cartproducts">${item}</p>
-        </div>
-        `;
-    }/
-    document.querySelector("#produtoscarrinho").innerHTML = outputt;*/
+
+let http = new XMLHttpRequest();
+http.open('get','produtos.json', true);
+http.send();
+http.onload = function(){
+    if(this.readyState == 4 && this.status==200){
+        let produtos = JSON.parse(this.responseText);
+        let Userlog = JSON.parse(localStorage.getItem('userLog'))
+        let cartuser = Userlog.cart
+        let output = "";
+        for(let item of produtos){
+            for(let prdt of cartuser){
+                if( prdt == item.skin){
+                    output += `
+                    <table id = "tabelaprodutos" border="2px" bgcolor = "#62bbd2">
+                        <tr>
+                            <td>
+                                <img src = "${item.imgskin}">
+                            </td>
+                            <td>
+                                <p>${item.skin}</p>
+                            </td>
+                            <td>
+                                <p>${item.preco}</p>
+                            </td>
+                        </tr>
+                    </table>
+                    `;
+                }
+            }
+        }
+        document.querySelector(".produtoscarrinho").innerHTML = output;
+    }
+}
