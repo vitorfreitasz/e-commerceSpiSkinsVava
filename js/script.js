@@ -27,6 +27,10 @@ http.onload = function(){
 dadosusuario = JSON.parse(localStorage.getItem('userLog'))
 let carrinho= dadosusuario.cart
 function addcart(x){
+    if(localStorage.getItem('token')==null){
+        alert('Você precisa logar em sua conta...')
+        window.location.href='login.html'
+    }
     carrinho.push(x)
     console.log(carrinho)
     usuario=JSON.parse(localStorage.getItem('userLog'))
@@ -53,5 +57,12 @@ function pagFinal(){
     }, 1000)
 }
 
+function usuario(){
+    if(localStorage.getItem('token')==null){
+        window.location.href='login.html'
+    } else{
+        window.location.href='perfil.html'
+    }
+}
 
 /* -------------------------------------------------------------------------------------- */

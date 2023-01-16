@@ -1,0 +1,38 @@
+.perfilUser{
+    margin-top: 60px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 294px;
+}
+.perfilUser h1{
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.dadosdouser{
+    background-color: #274c55;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 94px;
+}
+.dadosdouser h3{
+    padding-top: 20px;
+}
+.dadosdouser p{
+    text-align: left;
+    margin-left: 30px;
+}
+.dadosdouser button{
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    border-radius: 15px;
+    background: #ff4655;
+    border: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}

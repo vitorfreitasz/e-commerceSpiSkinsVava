@@ -363,3 +363,12 @@ ul{
     }
      }
 /* Fim footer */
+
+body {
+    
+  }
+  
+  .carousel {
+    width: 1000px;
+    margin: 0 auto;
+  }
