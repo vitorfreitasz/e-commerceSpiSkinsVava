@@ -24,7 +24,8 @@ http.onload = function(){
     }
 }
 
-let carrinho=[]
+dadosusuario = JSON.parse(localStorage.getItem('userLog'))
+let carrinho= dadosusuario.cart
 function addcart(x){
     carrinho.push(x)
     console.log(carrinho)
