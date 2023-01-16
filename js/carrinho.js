@@ -53,3 +53,9 @@ function removecart(x){
     localStorage.setItem('userLog', JSON.stringify(usuario))
     window.location.reload();
 }
+
+function gofinalpage(){
+    setTimeout(()=>{
+        window.location.href='pagamento.html'
+    }, 1000)
+}

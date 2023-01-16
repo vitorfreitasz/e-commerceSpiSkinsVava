@@ -112,5 +112,11 @@
         "imgskin": "imagens/skins/facaxenohunter.png",
         "skin": "Faca Xenohunter",
         "preco": 1750
+    },
+    {
+        "classe": "faca",
+        "imgskin": "/imagens/todas-skins/Facas/Faca RGX 11z Pro/AnyConv.com__RGX_11z_Pro_Blade_Blue .png",
+        "skin": "Faca Rgx",
+        "preco": 1750
     }
 ]

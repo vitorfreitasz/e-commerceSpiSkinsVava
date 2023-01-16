@@ -35,6 +35,9 @@ function addcart(x){
     console.log(usuario)
     localStorage.removeItem('userLog')
     localStorage.setItem('userLog', JSON.stringify(usuario))
+    setTimeout(()=>{
+        window.location.href='carrinho.html'
+    }, 1000)
 }
 
 function salvadiv(x){

@@ -1,6 +1,6 @@
 .produtoscarrinho{
     width: 100%;
-    padding-top: 200px;
+    padding-top: 50px;
     padding-bottom: 100px;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -27,12 +27,11 @@
 
 .botoes{
     margin-bottom: 100px;
-    margin-left: 10%;
-    width: 100%;
+    padding-bottom: 74px;
 }
 
 #limparcarrinho{
-    position: left;
+    position: absolute;
     padding: 5px;
     text-decoration: none;
     font-family: Poppins, sans-serif;
@@ -44,12 +43,12 @@
     text-align: center;
     height: 30px;
     width: 20%;
-    margin-left: 10%;
     cursor: pointer;
 }
 
 #finalizarcompra{
-    position: right;
+    margin-left: 64%;
+    position: absolute;
     padding: 5px;
     text-decoration: none;
     font-family: Poppins, sans-serif;
@@ -61,6 +60,9 @@
     text-align: center;
     height: 30px;
     width: 20%;
-    margin-right: 10%;
     cursor: pointer;
+}
+.textzin{
+    padding-top: 100px;
+    text-align: center;
 }
